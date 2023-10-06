@@ -23,7 +23,7 @@ body {
 }
 #welcome .box h1 {
   color: white;
-  font-size: 55px;
+  font-size: 40px;
   padding-bottom: 13px;
   font-weight: 500;
 }
@@ -45,7 +45,7 @@ body {
   font-weight: 500;
 }
 #welcome .box a:hover {
-  background-color: #edc200;
+  background-color: #d9ac08;
   cursor: pointer;
 }
 @media screen and (max-width: 1024px) {
@@ -229,7 +229,7 @@ body {
   opacity: 0;
 }
 #portfolio .imgbox .icon:hover {
-  background-color: #ffbb00;
+  background-color: rgba(254, 211, 57, 0.9019607843);
   opacity: 0.9;
   transition: 0.5s;
   cursor: pointer;
@@ -607,10 +607,10 @@ body {
   padding: 27px;
 }
 #contactus .btn {
-  width: 271px;
-  height: 70px;
+  width: 200px;
+  height: 50px;
   background-color: #ffc800;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 #contactus .btn h3 {
   font-size: 25px;
