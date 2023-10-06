@@ -1,0 +1,78 @@
+header
+    position: fixed
+    background-color: #212529
+    padding: 25px 0
+    width: 100%
+    z-index: 1
+    .imgbox
+        width: 135px
+    nav
+        display: flex
+        a
+            color: #ffff
+            font-size: 20px
+            margin-right: 50px
+            cursor: default
+            &:hover
+                cursor: pointer
+                color: #edc01c
+        .box
+            display: none
+            border: 2px solid #ffffff1a
+            padding: 15px
+            border-radius: 5px
+            h1
+                font-size: 25px
+                font-weight: 700
+                color: #ffffff8c
+                padding-right: 10px
+            .icon
+                i
+                    font-size: 20px
+                    align-items: center
+                    padding-top: 2px
+                    color: #ffffff8c
+
+    @media screen and ( max-width: 1024px )
+        .imgbox
+            width: 150px
+            margin-left: 30px
+        nav
+            a
+                font-size: 20px
+                margin-right: 20px
+
+    @media ( max-width: 992px )
+        padding: 25px 0
+        .imgbox
+            width: 150px
+            margin-left: 20px
+        nav
+            a
+                font-size: 20px
+                margin-right: 30px
+
+    @media ( max-width: 768px )
+        padding: 15px 0
+        .imgbox
+            width: 130px
+        nav
+            margin-right: 30px
+            a
+                display: none
+            .box
+                display: flex
+                border: 2px solid #ffffff1a
+                padding: 10px 15px
+                border-radius: 5px
+                h1
+                    font-size: 15px
+                    padding: 2px 5px 0 0
+                .icon
+                    i
+                        font-size: 13px
+                        padding-top: 2px
+
+    @media screen and ( max-width: 320px )
+        nav
+            margin-right: 20px

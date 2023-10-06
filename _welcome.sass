@@ -1,0 +1,55 @@
+#welcome
+    background-image: url("A.Assets/header-bg.jpg")
+    background-color: #cccccc
+    height: 750px
+    background-repeat: no-repeat
+    background-size: cover
+    .box
+        text-align: center
+        margin-top: 245px
+        h1
+            color: #ffff
+            font-size: 40px
+            padding-bottom: 13px
+            font-weight: 500
+        h2
+            color: #ffff
+            font-size: 90px
+            padding-bottom: 75px
+            font-weight: 700
+        h1,h2
+            cursor: initial
+        a
+            padding: 20px 60px
+            background-color: #ffc800
+            border-radius: 6px
+            color: #ffff
+            font-size: 27px
+            font-weight: 500
+            &:hover
+                background-color: #d9ac08
+                cursor: pointer
+
+    @media screen and ( max-width: 1024px )
+        background-position: center center
+
+    @media screen and ( max-width: 992px )
+        background-position: center center
+        .box
+            h1
+                font-size: 45px
+                padding-bottom: 18px
+    @media screen and ( max-width: 576px )
+        background-position: center 
+        height: 550px
+        .box
+            margin-top: 150px
+            h1
+                font-size: 28px
+            h2
+                font-size: 65px
+            a
+                padding: 18px 50px
+                border-radius: 5px
+                font-size: 25px
+                font-weight: 700
